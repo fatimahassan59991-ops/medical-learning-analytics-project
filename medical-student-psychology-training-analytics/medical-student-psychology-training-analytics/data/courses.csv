@@ -1,0 +1,11 @@
+course_id,course_name,category,format,duration_hours,mandatory
+1,Psychiatric Interviewing & Mental Status Examination,Behavioral Science & Psychiatry,Digital Workbook,6.0,True
+2,"Recognizing Depression, Anxiety & Suicide Risk",Behavioral Science & Psychiatry,Digital Workbook,5.5,True
+3,Trauma-Informed Care & Communication,Behavioral Science & Psychiatry,Digital Workbook,4.5,True
+4,De-escalation Micro-Skills for Acute Distress,Behavioral Science & Psychiatry,Gamified Microlearning,1.0,True
+5,Empathic Communication Quick Course,Behavioral Science & Psychiatry,Gamified Microlearning,1.5,True
+6,Intro to Cognitive Behavioral Therapy for Primary Care,Psychology,Teacher-Led Virtual,3.0,False
+7,Motivational Interviewing Workshop,Psychology,Blended,2.5,False
+8,Physician Wellness & Burnout Prevention,Psychology,Teacher-Led Virtual,4.0,False
+9,Understanding Implicit Bias in Clinical Decision-Making,Psychology,Digital Workbook,3.0,False
+10,Peer Mentorship & Clinical Team Communication,Leadership,Blended,6.0,False
