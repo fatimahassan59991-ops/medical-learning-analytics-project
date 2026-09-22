@@ -1,0 +1,601 @@
+student_id,campus,group,course_name,pre_test_score,completion_status,completion_time_days,post_test_score,assessment_attempts,satisfaction_score
+70001,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,65.6,Completed,11,86.8,2,4.1
+70002,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,37.7,In Progress,,,2,2.9
+70003,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,63.2,In Progress,,,1,2.9
+70004,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,50.7,Completed,15,74.7,1,4.7
+70005,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,52.4,Dropped,,,3,2.3
+70006,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,64.4,Completed,10,85.6,2,4.3
+70007,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,41.4,In Progress,,,2,4.0
+70008,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,71.7,Completed,12,90.3,1,4.9
+70009,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,51.1,In Progress,,,2,2.9
+70010,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,57.7,Completed,16,69.7,2,4.4
+70011,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,53.9,Completed,15,68.5,1,4.9
+70012,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,74.7,Completed,10,97.2,1,3.1
+70013,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,54.3,Completed,12,70.3,1,4.3
+70014,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,77.3,Completed,14,91.8,1,5.0
+70015,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,55.4,Completed,10,73.0,1,4.9
+70016,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,44.3,Completed,10,60.1,1,2.7
+70017,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,37.4,Completed,1,37.7,2,2.8
+70018,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,60.8,Completed,7,74.0,2,2.6
+70019,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,58.2,Completed,11,77.9,1,5.0
+70020,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,34.9,Completed,5,37.7,3,3.2
+70021,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,55.2,Completed,16,78.2,1,4.2
+70022,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,58.3,Completed,11,83.5,1,4.9
+70023,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,54.3,Completed,12,66.8,1,4.7
+70024,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,64.9,Completed,5,77.4,1,3.3
+70025,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,59.2,Completed,12,79.7,2,3.9
+70026,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,49.5,Dropped,,,0,3.4
+70027,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,38.0,Completed,1,51.5,2,3.1
+70028,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,71.6,Completed,2,86.2,1,3.3
+70029,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,58.4,Completed,5,62.6,3,3.5
+70030,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,70.9,Completed,17,92.2,1,4.4
+70031,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,62.8,Completed,15,79.8,1,5.0
+70032,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,53.3,Dropped,,,1,2.5
+70033,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,62.4,Completed,13,73.1,1,4.9
+70034,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,52.7,Completed,12,62.3,2,4.4
+70035,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,60.8,Completed,6,74.5,1,3.0
+70036,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,64.2,Completed,6,75.0,2,3.4
+70037,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,47.0,Completed,9,58.2,1,4.4
+70038,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,55.6,In Progress,,,1,3.0
+70039,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,66.1,Completed,3,77.5,2,2.7
+70040,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,27.7,Completed,12,29.7,2,4.7
+70041,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,69.3,Completed,11,74.2,2,3.4
+70042,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,40.9,Completed,13,50.7,1,4.8
+70043,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,57.0,Completed,4,60.5,2,2.8
+70044,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,73.0,Dropped,,,0,2.0
+70045,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,74.9,Completed,13,99.6,1,4.1
+70046,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,43.0,Completed,1,48.2,2,3.5
+70047,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,43.9,Completed,12,57.3,1,3.6
+70048,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,69.7,Completed,6,68.8,2,3.1
+70049,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,71.1,Dropped,,,2,2.0
+70050,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,59.9,Completed,14,71.8,1,4.4
+70051,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,82.6,Completed,5,88.1,1,3.0
+70052,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,75.8,In Progress,,,2,2.3
+70053,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,54.9,Dropped,,,2,2.2
+70054,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,75.7,Completed,11,100.0,1,3.9
+70055,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,46.6,Completed,8,53.3,2,2.9
+70056,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,50.0,Completed,15,64.9,2,4.5
+70057,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,71.6,Completed,9,83.9,1,4.4
+70058,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,65.4,Dropped,,,3,3.0
+70059,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,56.5,Completed,16,79.3,1,4.7
+70060,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,35.5,Completed,11,49.1,2,4.4
+70061,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,62.0,Completed,4,70.2,2,3.2
+70062,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,59.9,Completed,12,83.9,1,4.6
+70063,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,42.6,Completed,12,46.4,2,4.1
+70064,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,68.3,Completed,11,73.5,1,4.5
+70065,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,42.4,Completed,4,52.2,2,3.4
+70066,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,52.1,Dropped,,,1,2.4
+70067,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,44.2,Completed,14,48.8,2,4.5
+70068,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,58.6,Completed,6,62.2,2,2.7
+70069,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,73.6,In Progress,,,3,3.1
+70070,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,40.0,Completed,10,51.9,2,4.8
+70071,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,60.8,Completed,5,66.9,1,2.8
+70072,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,64.2,Completed,13,77.3,2,4.8
+70073,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,51.1,In Progress,,,2,2.3
+70074,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,78.8,Completed,1,84.4,1,3.0
+70075,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,45.4,In Progress,,,3,3.1
+70076,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,67.0,Completed,9,77.5,1,3.3
+70077,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,42.3,Dropped,,,2,1.6
+70078,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,58.1,Completed,12,74.0,1,4.2
+70079,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,66.6,Completed,14,78.8,1,3.8
+70080,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,49.5,In Progress,,,1,3.1
+70081,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,92.8,Completed,5,100.0,1,2.8
+70082,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,78.6,Dropped,,,0,2.2
+70083,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,26.5,Completed,6,27.8,1,3.4
+70084,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,66.3,Completed,10,86.6,1,4.5
+70085,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,43.9,Completed,17,56.4,1,5.0
+70086,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,60.1,Completed,4,56.4,2,2.9
+70087,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,53.0,Dropped,,,3,2.1
+70088,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,51.9,In Progress,,,2,2.5
+70089,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,62.3,Completed,4,72.0,3,3.1
+70090,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,64.3,Completed,10,68.2,2,3.5
+70091,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,51.0,Completed,12,65.4,1,4.8
+70092,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,66.2,Completed,11,82.7,2,4.3
+70093,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,57.7,Completed,9,64.3,1,2.3
+70094,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,58.5,Completed,15,72.2,1,4.5
+70095,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,49.8,Completed,13,54.7,2,4.3
+70096,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,53.2,Completed,4,62.8,2,2.7
+70097,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,82.5,Completed,19,100.0,1,4.5
+70098,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,53.4,Completed,13,73.1,1,4.3
+70099,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,53.3,Completed,7,57.9,1,2.8
+70100,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,40.1,Dropped,,,2,2.2
+70101,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,53.7,Completed,10,64.5,2,3.2
+70102,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,63.9,Completed,12,77.6,1,5.0
+70103,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,74.3,Completed,4,78.2,2,3.5
+70104,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,62.9,Completed,12,83.2,1,4.9
+70105,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,72.6,Completed,15,92.1,1,4.3
+70106,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,76.3,In Progress,,,2,2.5
+70107,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,54.5,Completed,13,71.5,2,4.6
+70108,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,40.1,Completed,11,53.6,1,4.5
+70109,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,63.2,In Progress,,,1,2.8
+70110,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,59.4,Completed,14,77.5,1,4.6
+70111,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,41.0,Completed,7,55.3,2,3.1
+70112,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,62.5,Completed,9,78.6,1,5.0
+70113,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,60.8,Completed,8,62.6,2,3.9
+70114,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,79.7,Completed,8,87.3,2,3.2
+70115,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,69.7,Completed,6,95.8,1,4.5
+70116,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,77.4,Completed,4,85.0,1,3.4
+70117,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,55.2,Dropped,,,2,2.3
+70118,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,56.1,Completed,6,75.4,1,4.6
+70119,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,42.9,Completed,1,52.8,3,3.6
+70120,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,63.0,Completed,11,79.9,1,4.7
+70121,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,62.9,In Progress,,,2,3.2
+70122,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,40.3,Completed,14,53.0,1,4.3
+70123,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,58.5,Completed,8,85.7,1,4.8
+70124,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,53.2,Completed,13,60.4,2,3.4
+70125,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,41.4,Completed,9,57.9,1,4.1
+70126,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,41.4,Completed,15,49.3,2,4.2
+70127,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,56.5,Completed,1,61.7,2,3.0
+70128,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,67.4,Completed,12,83.7,1,4.6
+70129,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,33.3,Completed,7,50.2,2,4.3
+70130,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,59.8,Completed,11,66.4,2,4.7
+70131,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,70.1,Completed,1,77.6,3,3.2
+70132,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,47.2,Completed,11,66.4,1,4.5
+70133,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,50.0,Completed,18,66.3,2,5.0
+70134,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,49.2,In Progress,,,3,2.4
+70135,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,81.9,Completed,5,97.6,3,3.0
+70136,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,36.2,Completed,11,54.0,1,4.3
+70137,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,53.7,Completed,11,72.9,2,4.7
+70138,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,55.8,Completed,2,61.8,3,2.8
+70139,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,66.3,In Progress,,,1,2.5
+70140,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,56.4,Completed,5,56.9,3,3.5
+70141,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,58.0,Completed,3,65.2,2,3.4
+70142,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,75.9,Completed,3,88.2,2,2.9
+70143,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,74.8,Completed,9,87.8,1,4.9
+70144,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,51.8,Completed,4,58.2,2,3.1
+70145,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,61.4,Completed,7,71.2,1,3.3
+70146,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,44.4,Dropped,,,1,2.2
+70147,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,58.4,Completed,5,73.6,2,4.5
+70148,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,57.7,In Progress,,,3,2.4
+70149,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,48.9,Completed,13,63.4,2,4.3
+70150,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,78.1,Completed,5,86.1,2,3.5
+70151,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,56.2,Completed,10,75.8,1,4.1
+70152,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,50.4,Completed,20,66.3,1,4.8
+70153,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,76.0,Completed,4,77.3,2,2.2
+70154,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,62.9,Completed,13,80.9,2,4.4
+70155,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,52.3,Completed,11,63.1,1,4.5
+70156,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,45.4,Completed,1,47.8,1,2.9
+70157,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,66.9,Completed,11,77.2,1,4.8
+70158,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,74.3,Dropped,,,1,1.9
+70159,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,42.2,In Progress,,,2,4.0
+70160,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,60.4,In Progress,,,2,2.1
+70161,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,57.6,Completed,8,76.4,1,5.0
+70162,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,91.0,Completed,12,100.0,1,4.7
+70163,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,76.4,Completed,10,95.7,2,4.2
+70164,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,68.0,In Progress,,,1,2.6
+70165,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,43.4,Completed,1,52.8,2,2.6
+70166,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,53.0,Completed,10,77.8,2,5.0
+70167,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,46.8,Completed,11,47.9,1,4.2
+70168,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,47.4,Completed,6,47.9,2,2.4
+70169,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,66.3,Completed,14,71.0,1,4.5
+70170,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,63.1,Completed,1,54.8,1,3.7
+70171,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,46.8,Completed,7,49.2,3,2.6
+70172,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,52.2,Dropped,,,0,2.1
+70173,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,58.2,Completed,9,75.8,1,4.4
+70174,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,54.5,Completed,3,63.2,2,3.1
+70175,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,84.0,Completed,7,98.7,1,3.3
+70176,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,64.8,Completed,13,81.5,1,4.7
+70177,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,64.2,In Progress,,,1,4.1
+70178,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,60.7,Completed,1,67.1,1,2.7
+70179,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,93.5,Completed,6,100.0,2,2.5
+70180,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,43.6,Completed,11,63.5,2,5.0
+70181,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,68.0,Completed,9,81.7,2,4.3
+70182,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,74.5,Completed,12,76.1,3,3.4
+70183,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,61.2,Completed,6,68.5,2,3.8
+70184,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,37.4,Completed,15,53.0,2,4.5
+70185,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,93.1,Completed,9,100.0,2,4.6
+70186,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,51.7,In Progress,,,2,2.3
+70187,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,37.5,Dropped,,,1,2.5
+70188,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,68.6,In Progress,,,1,3.0
+70189,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,47.6,Dropped,,,2,1.8
+70190,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,69.9,Completed,13,89.4,1,4.2
+70191,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,65.1,Completed,11,80.7,1,4.3
+70192,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,53.2,Completed,12,61.7,2,4.4
+70193,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,31.3,Completed,16,48.4,2,4.3
+70194,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,44.9,Completed,14,60.6,2,4.4
+70195,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,45.8,Completed,3,43.1,2,3.3
+70196,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,38.0,In Progress,,,2,2.9
+70197,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,61.1,Completed,16,85.2,2,4.4
+70198,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,81.9,Completed,14,100.0,1,4.5
+70199,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,64.6,Completed,10,67.0,2,2.8
+70200,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,74.9,Completed,6,86.5,2,3.5
+70201,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,72.6,Completed,18,80.4,2,4.6
+70202,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,72.4,Completed,16,90.4,2,4.2
+70203,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,44.0,Dropped,,,1,2.0
+70204,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,49.0,Dropped,,,1,3.1
+70205,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,38.4,Completed,6,42.9,2,3.3
+70206,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,57.4,Completed,8,75.0,2,4.0
+70207,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,62.2,Completed,3,71.9,2,3.7
+70208,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,52.2,Completed,11,74.4,1,4.3
+70209,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,56.8,Completed,12,67.9,1,4.9
+70210,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,74.1,Completed,5,85.7,1,3.2
+70211,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,61.9,Completed,19,78.3,1,4.7
+70212,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,42.3,Completed,1,51.3,2,2.8
+70213,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,70.7,Completed,11,89.5,1,4.3
+70214,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,80.2,Completed,14,100.0,1,4.3
+70215,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,59.1,Completed,12,74.5,2,4.5
+70216,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,55.2,In Progress,,,2,2.7
+70217,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,59.5,Completed,17,69.7,1,4.7
+70218,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,77.5,Completed,13,92.3,1,4.1
+70219,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,62.2,Dropped,,,1,2.2
+70220,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,49.1,Completed,4,50.6,1,3.1
+70221,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,59.6,Dropped,,,0,3.9
+70222,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,35.2,Completed,5,46.7,1,3.5
+70223,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,43.5,Dropped,,,2,2.5
+70224,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,63.0,Completed,13,81.8,1,4.0
+70225,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,43.8,Completed,11,59.8,2,4.9
+70226,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,60.6,Completed,12,77.6,2,4.9
+70227,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,90.7,Completed,8,100.0,2,3.6
+70228,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,75.1,Completed,10,92.7,1,4.5
+70229,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,47.3,Completed,9,58.0,3,3.2
+70230,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,63.2,Completed,4,71.8,1,3.6
+70231,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,68.7,Completed,10,78.2,1,3.4
+70232,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,55.4,Completed,6,55.6,2,3.1
+70233,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,61.0,Dropped,,,1,2.2
+70234,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,68.0,Completed,7,83.1,1,2.7
+70235,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,41.1,Completed,3,43.4,2,3.2
+70236,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,64.0,Dropped,,,1,2.3
+70237,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,57.8,Completed,4,72.4,2,4.0
+70238,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,46.0,Completed,13,59.8,1,4.5
+70239,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,67.2,Completed,7,65.8,1,3.3
+70240,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,89.5,Completed,2,100.0,2,3.5
+70241,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,65.4,Completed,8,71.1,2,3.3
+70242,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,40.8,Completed,12,63.3,1,4.9
+70243,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,55.6,Dropped,,,0,2.2
+70244,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,59.8,Completed,4,70.1,3,3.7
+70245,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,48.5,Completed,3,47.2,3,2.3
+70246,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,48.6,Completed,12,59.3,1,4.8
+70247,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,70.4,Completed,20,86.9,2,4.5
+70248,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,54.9,Completed,4,59.7,2,2.8
+70249,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,68.8,Completed,15,83.8,2,4.7
+70250,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,60.3,Completed,8,64.2,2,3.9
+70251,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,83.0,Completed,3,96.6,1,3.4
+70252,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,66.1,In Progress,,,2,2.4
+70253,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,70.4,Completed,7,80.8,1,4.5
+70254,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,66.2,Completed,14,78.8,1,4.3
+70255,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,44.8,Completed,15,56.6,2,4.5
+70256,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,38.3,Dropped,,,3,2.6
+70257,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,71.7,Completed,1,78.1,2,3.4
+70258,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,49.8,In Progress,,,2,2.7
+70259,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,58.4,Completed,14,70.6,1,4.3
+70260,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,63.3,Completed,1,76.4,1,3.3
+70261,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,59.3,Completed,6,75.4,2,3.9
+70262,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,55.5,Completed,15,62.7,1,4.8
+70263,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,84.8,In Progress,,,2,2.8
+70264,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,54.2,Completed,13,73.1,1,4.8
+70265,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,56.0,Completed,15,74.9,1,4.2
+70266,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,70.4,Completed,14,84.0,1,4.1
+70267,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,47.4,Completed,11,69.7,2,4.3
+70268,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,37.5,Completed,10,48.1,2,4.8
+70269,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,54.9,In Progress,,,2,2.6
+70270,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,61.4,Completed,5,67.4,2,3.1
+70271,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,57.5,Completed,12,76.6,1,4.5
+70272,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,52.5,Dropped,,,1,1.7
+70273,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,82.7,In Progress,,,1,3.6
+70274,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,78.4,Completed,12,96.3,1,4.6
+70275,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,77.7,Completed,11,91.7,1,4.5
+70276,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,65.6,Completed,3,79.9,1,3.5
+70277,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,40.8,Completed,9,47.8,1,3.5
+70278,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,72.1,Completed,9,88.0,2,3.6
+70279,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,33.5,Completed,14,39.5,1,4.4
+70280,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,72.4,Completed,1,87.0,1,3.6
+70281,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,66.9,Completed,11,87.3,2,5.0
+70282,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,48.1,Completed,3,67.2,1,3.6
+70283,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,70.0,Completed,2,82.1,1,2.7
+70284,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,46.8,Completed,1,58.1,2,3.2
+70285,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,74.1,Completed,3,80.9,2,2.5
+70286,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,42.0,In Progress,,,3,2.3
+70287,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,56.3,Completed,13,74.0,1,4.8
+70288,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,49.9,Completed,11,65.7,1,4.7
+70289,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,62.9,Completed,16,79.4,1,4.9
+70290,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,90.7,Completed,5,100.0,2,3.1
+70291,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,61.1,Dropped,,,3,2.1
+70292,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,67.1,Completed,10,85.9,1,4.0
+70293,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,73.1,Completed,4,82.9,2,3.6
+70294,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,68.5,In Progress,,,3,4.1
+70295,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,72.4,Completed,3,84.4,1,3.8
+70296,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,57.3,Completed,3,59.9,1,3.8
+70297,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,48.6,Completed,7,55.3,2,3.2
+70298,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,65.7,Completed,10,86.7,1,4.1
+70299,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,57.5,Completed,6,72.0,1,2.7
+70300,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,37.8,Dropped,,,2,1.8
+70301,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,28.3,Completed,7,36.8,2,3.5
+70302,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,47.3,Completed,11,53.1,2,3.6
+70303,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,80.4,Completed,1,89.1,2,3.1
+70304,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,66.0,Completed,13,75.8,2,4.3
+70305,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,62.4,Completed,14,84.1,1,4.5
+70306,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,53.1,Completed,14,73.4,1,4.3
+70307,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,61.3,Completed,12,72.0,1,4.8
+70308,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,69.4,Dropped,,,2,2.0
+70309,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,92.1,Completed,5,100.0,1,3.1
+70310,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,46.7,Completed,13,59.8,2,4.7
+70311,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,67.7,Completed,5,68.8,2,3.0
+70312,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,72.7,Completed,3,80.5,1,3.8
+70313,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,41.7,Completed,12,56.5,1,4.2
+70314,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,52.8,Completed,12,67.4,1,4.5
+70315,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,56.9,Completed,15,73.0,2,4.7
+70316,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,67.4,Completed,15,75.0,1,3.2
+70317,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,50.6,Completed,13,60.9,1,4.4
+70318,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,37.7,Completed,6,40.9,3,4.1
+70319,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,59.3,Completed,13,71.1,1,4.0
+70320,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,28.7,Completed,8,29.0,1,4.4
+70321,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,56.8,In Progress,,,1,4.3
+70322,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,70.1,Completed,15,96.7,1,4.6
+70323,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,78.9,Completed,14,100.0,1,4.4
+70324,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,61.9,Completed,3,69.4,1,3.3
+70325,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,67.7,Completed,4,67.6,2,3.5
+70326,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,91.0,Completed,16,100.0,1,4.4
+70327,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,52.7,Completed,13,61.6,2,4.0
+70328,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,65.5,Completed,8,70.8,2,2.9
+70329,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,59.0,In Progress,,,2,2.1
+70330,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,62.3,Completed,4,64.0,2,2.7
+70331,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,45.0,Completed,15,56.3,2,3.7
+70332,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,50.0,Completed,12,65.6,1,4.7
+70333,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,51.8,Completed,6,59.2,2,3.0
+70334,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,85.4,Completed,5,100.0,1,4.1
+70335,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,85.0,Completed,4,91.7,2,3.6
+70336,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,48.2,Completed,9,48.1,2,3.0
+70337,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,64.0,Completed,7,72.6,2,3.0
+70338,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,54.3,Completed,13,59.8,2,4.5
+70339,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,65.4,Completed,8,81.2,2,2.9
+70340,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,62.9,Completed,8,74.1,2,4.3
+70341,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,82.9,Completed,5,97.3,2,3.1
+70342,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,64.8,Completed,13,85.7,2,4.6
+70343,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,50.4,Completed,12,65.9,1,3.8
+70344,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,55.7,Completed,5,61.4,2,3.2
+70345,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,70.4,Completed,7,85.6,2,2.8
+70346,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,81.4,Completed,4,100.0,2,3.4
+70347,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,53.9,Completed,6,79.9,1,4.6
+70348,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,73.9,Completed,8,97.3,1,4.6
+70349,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,63.9,Dropped,,,0,3.4
+70350,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,62.2,Completed,8,86.7,2,4.1
+70351,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,62.7,Completed,2,71.0,2,3.6
+70352,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,68.9,Completed,4,80.5,1,2.4
+70353,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,81.6,Completed,7,85.6,2,2.8
+70354,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,66.8,Completed,11,80.0,1,4.8
+70355,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,62.4,Completed,9,71.1,2,3.0
+70356,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,35.5,Completed,8,32.8,1,4.7
+70357,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,36.6,Completed,16,45.7,1,4.0
+70358,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,73.0,Completed,6,77.9,2,3.8
+70359,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,59.3,Completed,9,66.0,2,3.5
+70360,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,65.0,In Progress,,,2,2.1
+70361,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,86.1,Completed,4,100.0,2,3.0
+70362,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,82.6,Completed,13,96.2,1,5.0
+70363,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,66.6,Completed,8,83.1,2,4.0
+70364,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,27.0,Completed,1,38.5,2,3.2
+70365,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,49.4,Completed,16,63.4,1,3.9
+70366,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,64.4,Completed,10,85.0,2,4.7
+70367,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,42.1,Completed,16,54.4,2,4.0
+70368,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,80.8,In Progress,,,2,2.7
+70369,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,71.8,Completed,11,88.7,2,4.9
+70370,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,52.3,Completed,3,55.0,2,2.9
+70371,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,44.1,In Progress,,,2,3.6
+70372,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,55.8,In Progress,,,1,4.0
+70373,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,39.2,Dropped,,,2,2.2
+70374,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,41.7,In Progress,,,2,2.8
+70375,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,72.3,Completed,14,89.7,1,4.2
+70376,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,63.7,In Progress,,,2,2.8
+70377,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,68.7,Completed,13,78.8,1,4.8
+70378,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,58.5,Completed,1,54.9,3,3.3
+70379,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,54.6,Completed,13,72.3,1,4.4
+70380,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,66.6,Completed,4,72.0,2,3.0
+70381,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,45.1,Completed,9,63.5,1,4.9
+70382,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,54.9,Completed,4,64.6,1,2.6
+70383,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,58.9,Completed,14,78.6,1,3.9
+70384,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,46.4,Completed,2,51.9,2,3.3
+70385,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,58.2,Dropped,,,0,2.3
+70386,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,51.0,In Progress,,,1,3.7
+70387,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,46.3,Completed,9,60.2,2,4.4
+70388,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,60.9,Completed,15,80.3,2,5.0
+70389,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,63.0,Completed,3,63.8,2,2.7
+70390,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,87.1,Completed,16,100.0,1,4.5
+70391,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,68.3,Dropped,,,0,2.3
+70392,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,60.4,Completed,5,71.4,2,3.8
+70393,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,95.0,Completed,11,100.0,1,4.4
+70394,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,61.4,Completed,20,74.8,1,5.0
+70395,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,67.5,Completed,1,77.2,1,3.4
+70396,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,41.2,Completed,5,41.3,3,2.8
+70397,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,90.0,In Progress,,,2,2.5
+70398,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,55.2,In Progress,,,1,3.8
+70399,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,69.8,Completed,13,84.3,1,4.3
+70400,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,68.0,Completed,9,86.8,1,4.8
+70401,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,73.3,Completed,17,87.0,1,4.6
+70402,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,30.9,Dropped,,,0,4.6
+70403,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,49.3,Completed,10,57.1,2,4.9
+70404,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,57.1,Completed,14,72.8,1,4.3
+70405,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,69.0,Dropped,,,2,2.6
+70406,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,52.6,Completed,10,79.7,1,4.2
+70407,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,44.8,Completed,7,47.6,2,4.6
+70408,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,50.7,Completed,13,67.6,1,4.7
+70409,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,74.2,Completed,10,83.5,2,3.8
+70410,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,58.0,Completed,13,70.0,1,4.3
+70411,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,68.6,Completed,4,72.5,1,3.3
+70412,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,42.9,Completed,1,38.5,3,3.6
+70413,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,61.0,Completed,14,83.4,1,4.1
+70414,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,43.8,Completed,5,49.5,1,3.4
+70415,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,35.9,Completed,13,48.8,2,4.4
+70416,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,49.8,Completed,3,52.0,1,2.7
+70417,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,75.2,Completed,3,81.6,3,3.6
+70418,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,63.1,Completed,9,79.3,2,4.6
+70419,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,73.1,In Progress,,,2,2.9
+70420,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,58.1,Completed,8,65.5,2,3.3
+70421,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,36.9,Completed,13,42.8,1,4.1
+70422,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,67.0,Completed,1,82.1,3,3.5
+70423,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,65.1,Completed,10,63.8,2,2.7
+70424,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,56.6,In Progress,,,1,3.0
+70425,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,41.4,Dropped,,,1,2.4
+70426,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,55.8,In Progress,,,2,2.5
+70427,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,71.1,Completed,6,69.2,2,4.0
+70428,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,48.8,Completed,17,65.6,1,4.2
+70429,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,71.6,Dropped,,,1,2.4
+70430,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,59.6,Dropped,,,0,2.3
+70431,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,46.0,In Progress,,,1,3.3
+70432,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,70.9,Completed,8,91.8,1,4.5
+70433,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,55.5,Completed,16,65.4,1,3.9
+70434,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,68.2,Completed,10,71.5,2,3.2
+70435,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,56.5,Dropped,,,0,2.4
+70436,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,47.0,Dropped,,,3,1.5
+70437,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,60.0,Completed,5,65.3,2,3.4
+70438,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,68.9,Completed,7,78.6,1,4.6
+70439,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,65.7,Completed,5,76.8,1,4.9
+70440,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,73.9,Completed,16,86.9,1,4.8
+70441,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,72.1,Dropped,,,0,2.1
+70442,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,75.4,In Progress,,,2,2.8
+70443,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,34.1,Completed,17,45.7,3,4.2
+70444,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,77.9,Completed,7,93.3,2,3.6
+70445,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,66.7,Completed,5,71.2,2,3.1
+70446,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,75.2,Completed,15,99.6,1,5.0
+70447,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,60.9,Completed,8,77.0,1,3.7
+70448,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,57.9,Completed,3,66.9,2,2.3
+70449,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,45.1,Dropped,,,2,1.8
+70450,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,63.3,In Progress,,,2,2.8
+70451,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,73.1,Completed,11,94.5,1,4.7
+70452,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,68.5,Completed,8,76.1,1,3.6
+70453,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,83.4,Completed,8,99.2,1,4.6
+70454,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,57.4,Completed,13,80.1,1,4.1
+70455,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,31.6,Completed,1,23.7,2,3.2
+70456,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,52.9,In Progress,,,1,2.5
+70457,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,52.4,Completed,9,61.2,2,4.8
+70458,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,59.9,Completed,11,77.4,2,4.1
+70459,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,56.4,Completed,7,64.3,1,2.9
+70460,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,63.3,Completed,12,91.3,1,4.6
+70461,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,70.6,Completed,11,90.0,2,5.0
+70462,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,42.8,Completed,6,47.2,3,3.7
+70463,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,57.7,Completed,8,59.9,2,4.1
+70464,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,68.3,Completed,15,88.6,2,5.0
+70465,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,65.0,Completed,9,72.6,1,2.9
+70466,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,66.6,Completed,7,80.0,3,3.3
+70467,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,71.9,Completed,7,85.0,2,3.0
+70468,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,69.1,Completed,14,94.8,1,4.5
+70469,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,47.7,Completed,16,61.6,1,4.5
+70470,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,41.9,In Progress,,,3,2.3
+70471,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,53.4,Completed,8,50.2,2,2.6
+70472,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,61.8,Completed,11,81.9,2,4.6
+70473,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,58.2,Completed,3,62.4,1,3.1
+70474,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,63.4,In Progress,,,1,2.6
+70475,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,56.9,Completed,9,62.4,2,3.7
+70476,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,73.3,In Progress,,,1,2.8
+70477,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,76.7,In Progress,,,2,2.3
+70478,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,64.6,Dropped,,,2,1.9
+70479,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,47.4,Completed,5,71.2,1,4.2
+70480,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,50.5,Dropped,,,0,2.5
+70481,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,55.3,Completed,4,57.1,2,3.6
+70482,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,55.3,Completed,8,71.8,2,4.2
+70483,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,63.1,Completed,1,66.4,1,3.8
+70484,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,68.1,In Progress,,,1,2.2
+70485,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,35.2,Completed,10,45.4,2,4.8
+70486,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,59.0,Completed,8,72.0,2,4.1
+70487,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,40.4,Completed,15,48.8,2,5.0
+70488,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,62.5,Completed,12,74.0,2,4.2
+70489,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,57.4,Completed,14,71.1,1,4.3
+70490,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,75.8,Dropped,,,1,2.0
+70491,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,69.0,Completed,3,76.4,2,3.2
+70492,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,60.7,Completed,12,78.5,1,3.8
+70493,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,84.7,Completed,13,100.0,1,4.6
+70494,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,50.2,Completed,13,64.2,1,4.2
+70495,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,58.7,In Progress,,,2,2.3
+70496,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,42.0,Completed,16,55.9,2,4.4
+70497,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,44.1,Completed,14,59.0,2,4.9
+70498,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,57.0,Completed,7,58.6,2,3.4
+70499,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,70.6,Completed,15,90.3,1,4.6
+70500,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,88.5,Completed,6,93.2,2,2.9
+70501,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,57.5,In Progress,,,1,2.7
+70502,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,83.0,Completed,7,92.1,1,3.3
+70503,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,39.2,Completed,15,53.7,1,5.0
+70504,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,65.1,Completed,11,82.5,1,4.4
+70505,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,57.1,Completed,1,66.0,2,3.9
+70506,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,67.0,Completed,4,75.3,1,3.3
+70507,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,25.9,Completed,6,30.9,1,3.1
+70508,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,56.5,Completed,17,73.2,2,3.6
+70509,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,74.0,Completed,14,96.5,3,4.3
+70510,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,55.1,Dropped,,,1,2.1
+70511,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,73.6,Completed,15,85.5,2,4.5
+70512,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,54.4,Dropped,,,2,2.0
+70513,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,61.7,Completed,11,71.1,1,4.7
+70514,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,77.7,Completed,6,90.1,3,3.3
+70515,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,53.6,Completed,11,54.2,3,3.3
+70516,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,40.5,Completed,13,57.7,2,4.4
+70517,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,88.5,Completed,12,100.0,1,4.9
+70518,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,67.6,Completed,1,79.6,1,3.6
+70519,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,55.2,Completed,14,71.6,1,4.7
+70520,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,42.6,Completed,10,54.8,2,4.7
+70521,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,60.1,Dropped,,,1,3.5
+70522,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,58.1,Completed,12,75.5,1,4.7
+70523,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,51.0,Completed,7,68.4,2,3.4
+70524,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,53.0,Completed,7,62.2,2,3.3
+70525,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,68.5,Completed,14,84.0,2,4.5
+70526,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,58.6,Completed,5,63.4,2,3.3
+70527,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,64.7,Completed,1,61.5,2,3.5
+70528,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,57.4,Completed,14,69.5,1,3.7
+70529,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,47.6,Completed,4,51.3,2,3.4
+70530,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,61.6,Completed,18,67.2,1,4.6
+70531,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,42.8,Completed,12,62.3,2,4.7
+70532,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,35.0,Completed,9,49.0,1,4.2
+70533,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,53.3,Completed,7,57.5,2,2.7
+70534,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,72.5,Completed,18,94.0,1,4.8
+70535,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,52.1,Completed,8,62.8,2,4.9
+70536,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,83.0,Completed,9,95.2,2,3.3
+70537,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,41.1,Completed,9,52.2,1,4.3
+70538,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,58.9,Completed,9,70.1,1,3.6
+70539,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,48.2,Completed,2,51.1,2,3.1
+70540,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,95.0,Completed,1,100.0,2,3.4
+70541,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,55.2,Completed,17,73.6,2,4.8
+70542,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,81.8,Completed,12,100.0,1,4.1
+70543,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,77.3,Completed,5,89.1,1,3.2
+70544,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,43.0,Completed,14,60.2,1,4.6
+70545,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,51.6,Completed,16,58.9,1,5.0
+70546,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,55.6,Completed,13,80.2,2,5.0
+70547,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,58.8,Completed,8,63.7,1,3.4
+70548,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,46.4,Dropped,,,1,2.5
+70549,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,54.3,Completed,13,69.2,1,4.5
+70550,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,60.1,Completed,1,62.5,2,3.0
+70551,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,69.8,Completed,14,94.9,2,4.8
+70552,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,57.1,Completed,7,63.9,2,3.1
+70553,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,60.1,Completed,13,73.5,1,4.4
+70554,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,94.4,Completed,18,100.0,2,4.3
+70555,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,62.7,In Progress,,,2,2.3
+70556,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,48.9,In Progress,,,1,4.5
+70557,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,76.2,Completed,15,89.8,2,4.4
+70558,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,49.8,In Progress,,,2,3.5
+70559,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,58.6,Completed,4,55.4,2,3.7
+70560,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,68.9,Completed,3,82.1,2,3.2
+70561,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,82.3,Completed,4,88.8,1,3.5
+70562,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,65.0,Completed,10,58.4,2,3.0
+70563,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,67.9,Completed,10,81.4,1,3.8
+70564,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,73.0,Completed,5,87.6,1,3.8
+70565,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,69.7,Completed,20,81.4,1,4.3
+70566,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,50.8,Completed,14,66.9,2,4.4
+70567,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,55.1,Completed,10,75.1,2,4.3
+70568,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,57.1,Completed,13,69.2,1,3.9
+70569,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,57.9,Completed,12,76.1,1,4.1
+70570,Riverside Teaching Hospital,Control,Suicide Risk Assessment & Safety Planning,51.6,Completed,6,64.9,2,3.7
+70571,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,33.4,Completed,7,52.7,2,4.4
+70572,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,62.7,Completed,14,82.6,2,4.6
+70573,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,59.6,Completed,15,80.0,1,4.5
+70574,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,60.8,Completed,5,70.3,2,2.8
+70575,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,71.8,Completed,1,73.7,2,3.1
+70576,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,58.8,Completed,18,75.1,1,4.4
+70577,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,46.7,Completed,13,55.6,2,4.9
+70578,Community Health Institute,Control,Suicide Risk Assessment & Safety Planning,42.2,In Progress,,,2,2.9
+70579,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,60.9,Completed,14,66.3,2,4.6
+70580,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,70.1,Completed,9,88.2,2,4.3
+70581,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,66.6,Dropped,,,2,1.7
+70582,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,60.1,Completed,18,71.5,1,4.1
+70583,University Health Partners,Treatment,Suicide Risk Assessment & Safety Planning,72.9,Completed,14,92.2,1,5.0
+70584,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,51.3,Completed,14,61.8,1,4.6
+70585,Community Health Institute,Treatment,Suicide Risk Assessment & Safety Planning,76.5,Completed,13,96.9,1,4.0
+70586,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,55.5,Completed,16,69.7,1,4.3
+70587,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,52.6,In Progress,,,2,4.5
+70588,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,59.8,Completed,11,85.9,1,3.9
+70589,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,39.5,In Progress,,,2,3.7
+70590,Meridian Main Campus,Control,Suicide Risk Assessment & Safety Planning,48.9,Dropped,,,2,2.0
+70591,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,76.6,Completed,15,93.3,1,4.5
+70592,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,40.6,Completed,14,55.0,1,4.5
+70593,University Health Partners,Control,Suicide Risk Assessment & Safety Planning,76.5,Completed,2,94.8,2,3.0
+70594,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,69.8,Completed,9,88.1,1,4.1
+70595,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,46.7,Completed,8,64.1,1,4.2
+70596,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,49.1,Completed,7,45.4,1,3.5
+70597,Riverside Teaching Hospital,Treatment,Suicide Risk Assessment & Safety Planning,56.6,Dropped,,,1,3.7
+70598,Meridian Main Campus,Treatment,Suicide Risk Assessment & Safety Planning,47.9,Completed,17,65.6,1,4.2
+70599,Lakeside Medical Center,Treatment,Suicide Risk Assessment & Safety Planning,57.1,Completed,12,72.8,1,4.6
+70600,Lakeside Medical Center,Control,Suicide Risk Assessment & Safety Planning,56.4,Completed,9,52.3,2,3.2
