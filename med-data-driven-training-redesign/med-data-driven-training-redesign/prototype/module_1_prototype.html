@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Module 1: Building Rapport & Structuring the Interview</title>
+<meta name="description" content="Interactive prototype of Module 1 of the redesigned Psychiatric Interviewing & Mental Status Examination training, built to demonstrate the microlearning interaction pattern (Rise 360 style).">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    color-scheme: light;
+    --surface: #fcfcfb;
+    --surface-card: #ffffff;
+    --surface-alt: #f1f0ec;
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted: #898781;
+    --accent: #2a78d6;
+    --accent-ink: #ffffff;
+    --good: #0ca30c;
+    --critical: #d03b3b;
+    --border: rgba(11,11,11,0.10);
+    --radius: 16px;
+    --shadow: 0 1px 2px rgba(11,11,11,0.05), 0 10px 30px rgba(11,11,11,0.08);
+    --font: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    font-family: var(--font);
+    background: var(--surface);
+    color: var(--text-primary);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .app {
+    max-width: 640px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .topbar {
+    padding: 1rem 1.25rem 0.75rem;
+    position: sticky;
+    top: 0;
+    background: var(--surface);
+    z-index: 5;
+  }
+
+  .topbar-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .progress-track {
+    height: 6px;
+    background: var(--surface-alt);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+
+  .progress-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 999px;
+    transition: width 0.35s ease;
+    width: 0%;
+  }
+
+  .screen {
+    flex: 1;
+    display: none;
+    flex-direction: column;
+    padding: 1.5rem 1.25rem 2.5rem;
+    animation: fadeIn 0.25s ease;
+  }
+  .screen.active { display: flex; }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .eyebrow {
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin: 0 0 0.5rem;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+    margin: 0 0 0.75rem;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    margin: 0 0 0.75rem;
+    font-weight: 700;
+  }
+
+  p { color: var(--text-secondary); margin: 0 0 1rem; }
+
+  .hero-icon {
+    font-size: 2.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    appearance: none;
+    border: none;
+    border-radius: 999px;
+    padding: 0.85rem 1.6rem;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    background: var(--accent);
+    color: var(--accent-ink);
+    transition: opacity 0.15s ease, transform 0.1s ease;
+  }
+  .btn:hover:not(:disabled) { opacity: 0.9; }
+  .btn:active:not(:disabled) { transform: scale(0.98); }
+  .btn:disabled { background: var(--surface-alt); color: var(--text-muted); cursor: not-allowed; }
+
+  .btn-row { margin-top: auto; padding-top: 1.5rem; }
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+    margin: 1rem 0 1.25rem;
+  }
+  @media (max-width: 480px) {
+    .card-grid { grid-template-columns: 1fr; }
+  }
+
+  .hazard-card {
+    background: var(--surface-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1rem 0.9rem;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.15s ease;
+  }
+  .hazard-card:hover { transform: translateY(-2px); }
+  .hazard-card .icon { font-size: 1.9rem; margin-bottom: 0.5rem; }
+  .hazard-card .name { font-weight: 700; font-size: 0.95rem; }
+  .hazard-card .desc {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    margin-top: 0.5rem;
+    display: none;
+  }
+  .hazard-card.opened { border-color: var(--accent); }
+  .hazard-card.opened .desc { display: block; }
+  .hazard-card.opened .tap-hint { display: none; }
+  .tap-hint { font-size: 0.72rem; color: var(--text-muted); margin-top: 0.35rem; }
+
+  .hint-banner {
+    background: var(--surface-alt);
+    border-radius: 12px;
+    padding: 0.75rem 1rem;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+  }
+
+  .option {
+    appearance: none;
+    -webkit-appearance: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: var(--surface-card);
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    padding: 0.85rem 1rem;
+    margin-bottom: 0.65rem;
+    font-family: inherit;
+    font-size: 0.98rem;
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: border-color 0.15s ease, background 0.15s ease;
+  }
+  .option:hover:not(:disabled) { border-color: var(--accent); }
+  .option:disabled { cursor: default; opacity: 1; }
+  .option.correct { border-color: var(--good) !important; background: color-mix(in srgb, var(--good) 12%, white) !important; color: #0a5c0a !important; font-weight: 600; }
+  .option.incorrect { border-color: var(--critical) !important; background: color-mix(in srgb, var(--critical) 12%, white) !important; color: #8a1f1f !important; font-weight: 600; }
+
+  .feedback {
+    border-radius: 12px;
+    padding: 0.9rem 1rem;
+    font-size: 0.92rem;
+    margin: 0.5rem 0 1rem;
+    display: none;
+  }
+  .feedback.show { display: block; }
+  .feedback.correct { background: color-mix(in srgb, var(--good) 10%, white); color: #0a5c0a; }
+  .feedback.incorrect { background: color-mix(in srgb, var(--critical) 10%, white); color: #8a1f1f; }
+  .feedback strong { display: block; margin-bottom: 0.2rem; }
+
+  .question-count { color: var(--text-muted); font-size: 0.85rem; font-weight: 600; margin-bottom: 0.5rem; }
+
+  .summary-stat {
+    background: var(--surface-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 1.5rem;
+    text-align: center;
+    margin: 1rem 0 1.5rem;
+  }
+  .summary-stat .score { font-size: 2.5rem; font-weight: 800; color: var(--accent); }
+  .summary-stat .label { color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.25rem; }
+
+  .recap-list { padding-left: 1.2rem; color: var(--text-secondary); }
+  .recap-list li { margin-bottom: 0.4rem; }
+
+  footer.note {
+    text-align: center;
+    padding: 1rem 1.25rem 1.5rem;
+    color: var(--text-muted);
+    font-size: 0.78rem;
+  }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <div class="topbar">
+    <div class="topbar-label">
+      <span id="screenLabel">Screen 1 of 6</span>
+      <span>Module 1 of 5</span>
+    </div>
+    <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+  </div>
+
+  <!-- 1.1 Title -->
+  <section class="screen active" data-screen="0">
+    <div class="hero-icon">🩺</div>
+    <p class="eyebrow">Psychiatric Interviewing &amp; Mental Status Examination</p>
+    <h1>Building Rapport &amp; Structuring the Interview</h1>
+    <p>In the next 12 minutes, you'll learn the opening techniques that set up every psychiatric interview to succeed — and how to structure what comes next.</p>
+    <div class="btn-row"><button class="btn" onclick="goTo(1)">Begin</button></div>
+  </section>
+
+  <!-- 1.2 Hook -->
+  <section class="screen" data-screen="1">
+    <div class="hero-icon">💬</div>
+    <h2>A quick fact before we start</h2>
+    <p>How you open the first two minutes shapes what a patient is willing to tell you for the rest of the visit — more than almost anything else you'll do in the interview.</p>
+    <p>Let's look at three techniques that make a strong opening.</p>
+    <div class="btn-row"><button class="btn" onclick="goTo(2)">Continue</button></div>
+  </section>
+
+  <!-- 1.3 Rapport-technique cards -->
+  <section class="screen" data-screen="2">
+    <h2>Tap each card to reveal it</h2>
+    <p class="hint-banner">Open all three cards to continue.</p>
+    <div class="card-grid" id="cardGrid">
+      <div class="hazard-card" data-card="0" onclick="openCard(0)">
+        <div class="icon">🗣️</div>
+        <div class="name">Open-Ended Opening</div>
+        <div class="tap-hint">Tap to reveal</div>
+        <div class="desc">Start broad and let the patient set the direction — e.g., "What brings you in today?" — rather than a yes/no question.</div>
+      </div>
+      <div class="hazard-card" data-card="1" onclick="openCard(1)">
+        <div class="icon">👂</div>
+        <div class="name">Active Listening &amp; Reflection</div>
+        <div class="tap-hint">Tap to reveal</div>
+        <div class="desc">Reflect back what the patient says in your own words to show you're following and to check your understanding.</div>
+      </div>
+      <div class="hazard-card" data-card="2" onclick="openCard(2)">
+        <div class="icon">🤝</div>
+        <div class="name">Normalizing Language</div>
+        <div class="tap-hint">Tap to reveal</div>
+        <div class="desc">Naming that starting an interview can feel uncomfortable lowers a guarded patient's defenses and builds trust faster.</div>
+      </div>
+    </div>
+    <div class="btn-row"><button class="btn" id="cardsContinueBtn" disabled onclick="goTo(3)">Continue</button></div>
+  </section>
+
+  <!-- 1.4 Relevance check (self-reflection, ungraded) -->
+  <section class="screen" data-screen="3">
+    <h2>Which would you lead with for this patient?</h2>
+    <p>This patient looks tense and hasn't made eye contact since you walked in. This one isn't scored — just take a second to think it through.</p>
+    <button class="option" onclick="goTo(4)">Open-Ended Opening</button>
+    <button class="option" onclick="goTo(4)">Active Listening &amp; Reflection</button>
+    <button class="option" onclick="goTo(4)">Normalizing Language</button>
+  </section>
+
+  <!-- 1.5 Knowledge check (3 questions) -->
+  <section class="screen" data-screen="4">
+    <div id="quizContainer"></div>
+  </section>
+
+  <!-- 1.6 Summary -->
+  <section class="screen" data-screen="5">
+    <h2>Nice work!</h2>
+    <div class="summary-stat">
+      <div class="score" id="finalScore">0 / 3</div>
+      <div class="label">Knowledge check score</div>
+    </div>
+    <p><strong>The three techniques to remember:</strong></p>
+    <ul class="recap-list">
+      <li>Open-ended opening</li>
+      <li>Active listening &amp; reflection</li>
+      <li>Normalizing language</li>
+    </ul>
+    <p>Next: Module 2 covers the Mental Status Examination.</p>
+    <div class="btn-row">
+      <button class="btn" onclick="restart()">Restart Prototype</button>
+    </div>
+  </section>
+
+  <footer class="note">Interactive prototype &middot; Module 1 of the redesigned Psychiatric Interviewing &amp; Mental Status Examination training &middot; built to demonstrate the microlearning interaction pattern</footer>
+</div>
+
+<script>
+  const totalScreens = 6;
+  let openedCards = new Set();
+  let quizScore = 0;
+  let quizIndex = 0;
+
+  const quizQuestions = [
+    {
+      q: "You're about to begin an interview with a patient who looks tense and hasn't made eye contact since you walked in. What's the best way to open?",
+      options: ["Start directly with the standard intake questions to keep things efficient", "Open with a brief, open-ended question and acknowledge that starting can feel uncomfortable", "Ask if everything is okay at home before introducing yourself", "Wait silently until the patient speaks first"],
+      correct: 1,
+      feedbackCorrect: "Right — naming the discomfort briefly and opening broadly invites the patient to set the pace.",
+      feedbackIncorrect: "Not quite. Naming the discomfort briefly and opening with a broad question invites the patient to set the pace, which builds more trust than moving straight into structured questions."
+    },
+    {
+      q: "Which of the following is an example of active listening during an interview?",
+      options: ["Taking detailed notes without looking up", "Reflecting back what the patient just said in your own words", "Moving quickly to the next question once an answer is given", "Asking multiple questions at once to save time"],
+      correct: 1,
+      feedbackCorrect: "Exactly — reflecting back what you heard shows you're following and checks your understanding.",
+      feedbackIncorrect: "Not quite. The other options are habits students fall into under time pressure. Active listening means reflecting back what the patient said in your own words."
+    },
+    {
+      q: "True or false: Rapport-building only matters at the start of the interview, not throughout.",
+      options: ["True", "False"],
+      correct: 1,
+      feedbackCorrect: "Correct — rapport needs to be maintained throughout, especially before sensitive questions later on.",
+      feedbackIncorrect: "Actually, false. Rapport needs to be maintained throughout the interview, especially before moving into more sensitive questions later on — it isn't a box to check once at the beginning."
+    }
+  ];
+
+  function updateProgress() {
+    const current = getCurrentScreenIndex();
+    document.getElementById('screenLabel').textContent = `Screen ${current + 1} of ${totalScreens}`;
+    document.getElementById('progressFill').style.width = `${((current + 1) / totalScreens) * 100}%`;
+  }
+
+  function getCurrentScreenIndex() {
+    return Array.from(document.querySelectorAll('.screen')).findIndex(s => s.classList.contains('active'));
+  }
+
+  function goTo(index) {
+    document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+    document.querySelector(`.screen[data-screen="${index}"]`).classList.add('active');
+    window.scrollTo({top: 0, behavior: 'smooth'});
+    updateProgress();
+    if (index === 4) renderQuiz();
+  }
+
+  function openCard(i) {
+    const card = document.querySelector(`.hazard-card[data-card="${i}"]`);
+    card.classList.add('opened');
+    openedCards.add(i);
+    if (openedCards.size === 3) {
+      document.getElementById('cardsContinueBtn').disabled = false;
+    }
+  }
+
+  function renderQuiz() {
+    const container = document.getElementById('quizContainer');
+    if (quizIndex >= quizQuestions.length) {
+      document.getElementById('finalScore').textContent = `${quizScore} / ${quizQuestions.length}`;
+      goTo(5);
+      return;
+    }
+    const item = quizQuestions[quizIndex];
+    container.innerHTML = `
+      <div class="question-count">Question ${quizIndex + 1} of ${quizQuestions.length}</div>
+      <h2>${item.q}</h2>
+      <div id="optionsWrap"></div>
+      <div class="feedback" id="feedbackBox"></div>
+      <div class="btn-row"><button class="btn" id="nextQBtn" style="display:none" onclick="nextQuestion()">Next</button></div>
+    `;
+    const wrap = document.getElementById('optionsWrap');
+    item.options.forEach((opt, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'option';
+      btn.textContent = opt;
+      btn.onclick = () => answerQuestion(i);
+      wrap.appendChild(btn);
+    });
+  }
+
+  function answerQuestion(selected) {
+    const item = quizQuestions[quizIndex];
+    const buttons = document.querySelectorAll('#optionsWrap .option');
+    buttons.forEach((b, i) => {
+      b.disabled = true;
+      if (i === item.correct) b.classList.add('correct');
+      else if (i === selected) b.classList.add('incorrect');
+    });
+    const feedbackBox = document.getElementById('feedbackBox');
+    const isCorrect = selected === item.correct;
+    if (isCorrect) quizScore++;
+    feedbackBox.className = `feedback show ${isCorrect ? 'correct' : 'incorrect'}`;
+    feedbackBox.innerHTML = `<strong>${isCorrect ? 'Correct' : 'Not quite'}</strong>${isCorrect ? item.feedbackCorrect : item.feedbackIncorrect}`;
+    document.getElementById('nextQBtn').style.display = 'inline-flex';
+  }
+
+  function nextQuestion() {
+    quizIndex++;
+    renderQuiz();
+  }
+
+  function restart() {
+    openedCards = new Set();
+    quizScore = 0;
+    quizIndex = 0;
+    document.querySelectorAll('.hazard-card').forEach(c => c.classList.remove('opened'));
+    document.getElementById('cardsContinueBtn').disabled = true;
+    goTo(0);
+  }
+
+  updateProgress();
+</script>
+
+</body>
+</html>
